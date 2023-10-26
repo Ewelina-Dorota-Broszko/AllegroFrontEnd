@@ -1,0 +1,94 @@
+.container-hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.text-ham {
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 600;
+  background-color: red;
+  padding: 10px;
+}
+.top-of-the-rolls {
+  width: 400px;
+  height: 80px;
+  background-color: #e4b57e;
+  border-bottom: 13px solid #db9d4f;
+  border-radius: 70px 70px 20px 20px;
+}
+.cheese {
+  width: 450px;
+  height: 15px;
+  background-color: #ffd400;
+  border-bottom: 3px solid #dfa600;
+}
+
+.tomatoes {
+  width: 250px;
+  height: 25px;
+  background-color: #ff0000;
+  border-bottom: 3px solid #f00031;
+}
+
+.meat {
+  width: 350px;
+  height: 25px;
+  background-color: #db5c22;
+  border-bottom: 3px solid #a12900;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.onion-coinatiner {
+  display: flex;
+  flex-direction: row;
+  width: 230px;
+  height: 25px;
+  justify-content: space-between;
+  background-color: #8d0083;
+  gap: 10px;
+}
+
+.onion-ring {
+  border-radius: 50%;
+  background-color: #e89ce2;
+  height: 100%;
+  width: 100%;
+}
+
+.cucumber {
+  width: 250px;
+  height: 30px;
+  background-color: #6bf283;
+  border-bottom: 13px solid #008200;
+  border-radius: 0px 0px 80px 80px;
+}
+
+.container-meatball {
+  display: flex;
+  flex-direction: row;
+}
+.meatball {
+  border-radius: 50%;
+  background-color:#b31922;
+  height: 70px;
+  width: 70px;
+}
+.bottom-of-the-rolls {
+  width: 400px;
+  height: 35px;
+  background-color: #e4b57e;
+  border-top: 13px solid #db9d4f;
+  border-radius: 20px 20px 70px 70px;
+}
+
+.table {
+  width: 550px;
+  height: 30px;
+  background-color: #f3eeee;
+  border-top: 5px solid #d3d1d1;
+  border-radius: 20px 20px 120px 120px;
+}
